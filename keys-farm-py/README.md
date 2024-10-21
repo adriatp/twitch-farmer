@@ -14,7 +14,7 @@ sudo apt-get install python3-tk python3-dev
 python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
-python3 ubu_main.py
+python3 main.py
 ```
 
 ### Windows
@@ -23,7 +23,7 @@ python3 ubu_main.py
 python -m venv env
 .\env\Scripts\activate
 pip install -r requirements.txt
-python win_main.py
+python main.py
 ```
 
 ## Update requeriments file
