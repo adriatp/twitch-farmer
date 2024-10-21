@@ -1,0 +1,16 @@
+{
+  "name": "Twitch Farmer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Extension for farmer community points in a Twitch channel",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.twitch.tv/*"
+      ],
+      "js": [
+        "lib/main.js"
+      ]
+    }
+  ]
+}
